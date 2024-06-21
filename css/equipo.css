@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    color: black;
+
+}
+header{
+    background-color: #80BACB;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .logo {
+        height: 150px;
+        width: 58%;
+        margin: auto;
+        display: flex;
+}
+    
+    nav {
+    display: flex;
+    width: 55%;
+}
+
+    .nav-menu {
+    width: 70%;
+    list-style: none;
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    font-size: 20px;
+}
+
+    .nav-menu li {
+    margin-left: 65px;
+}
+
+    .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+    .nav-menu a:hover {
+    color: #000000;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 40px;
+}
+main p{
+    font-size: 23px;
+    padding-top: 20px;
+    text-align: center;
+}
+#equipo {
+    position: absolute;
+    background-image: url(../img/doctores.png);
+    scroll-margin-block-end: 70px;
+    width: 600px;
+    height: 467px;
+    top: 200px;
+    left: 1100px;  
+    animation:  equipo 10s linear ;  
+} 
+@keyframes equipo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    } 
+}
+div h1 {
+    text-align: center;
+    font-size: 25px;
+
+}
+div p{
+    font-size: 20px;
+    padding-top: 20px;
+text-align: top;}
+
+.container{
+    display:block;
+    align-items: center;
+    justify-content: center;            
+}
+
+.text-box {
+    align-items: center;
+    justify-content: center;
+    text-align: left; 
+    margin-left: 20px; 
+}
+img.perro {
+    width: 900px; 
+    height: auto; 
+    float: right;
+    scroll-margin-block-end: 70px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    font-size: 20px;
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.footer-section p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.footer-section a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 0x solid #444;
+    margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}

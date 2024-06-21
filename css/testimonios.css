@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    color: black;
+
+}
+header{
+    background-color: #80BACB;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .logo {
+        height: 120px;
+        width: 50%;
+        margin: auto;
+        display: flex;
+}
+    
+    nav {
+    display: flex;
+    width: 55%;
+}
+
+    .nav-menu {
+    width: 70%;
+    list-style: none;
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    font-size: 15px;
+}
+
+    .nav-menu li {
+    margin-left: 65px;
+}
+
+    .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+    .nav-menu a:hover {
+    color: #000000;
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.testimonial span {
+    color: #777;
+    font-size: 0.9em;
+}
